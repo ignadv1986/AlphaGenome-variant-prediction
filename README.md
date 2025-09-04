@@ -25,6 +25,7 @@ A complete, ready-to-run Google Colab notebook containing all functions used in 
 - Identify mutations with the highest predicted impact on expression.
 ## Results
 A) **Motif Variant Analysis**
+
 When specifically targeting mutations to known regulatory motifs using AlphaGenome, the impact varied between genes:
 - H1-2 and H1-4 expression remained largely unaffected by mutations in the TATA-box, H1-box, or CH1UE motifs in the HeLa S3 cell line model.
 - In contrast, H1-0 expression showed sensitivity to mutations in both the TATA-box and, to a lesser extent, the H1-box, with a measurable reduction in predicted expression levels.
@@ -32,5 +33,7 @@ Cell-Type Specific Effects
 One of the strengths of AlphaGenome is its ability to assess variant effects across a wide range of cell types using RNA-Seq datasets. When analyzing other cell models:
 - The H1-0 TATA-box mutation had a broader and more pronounced effect on expression across multiple cell types.
 - Notably, mutations in both the H1-0 and H1-4 promoters caused a significant reduction (up to 2.5-fold) in predicted expression levels specifically in lymphocyte cell types, suggesting a cell-type-dependent regulatory role for these motifs. This is interesting given the previously reported link between H1 levels misregulation and different types of lymphomas.
+  
 B) **In-silico Mutagenesis**
+
 The in-silico mutagenesis pipeline did not identify any single nucleotide variants in the promoter or coding regions of H1-0, H1-2, or H1-4 that were predicted to cause large changes in expression levels. This suggests a degree of sequence robustness in these regions or limited sensitivity of the model to isolated point mutations outside of key regulatory motifs.
