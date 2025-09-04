@@ -19,4 +19,4 @@ This work aims to create an easily reusable platform to analyze gene expression 
 4) Run AlphaGenome to introduce variants into the selected sequences and extract/plot the results.
 5) Use in-silico mutagenesis to identify impactful variants both inside H1 genes and their promoters.
 ## Results
-
+- Despite being highly conserved motifs, the TATA-box, the H1-box and the CH1UE motif
